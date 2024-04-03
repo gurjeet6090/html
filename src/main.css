@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    text-shadow:  1px 20px 9px red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+    font-size: 40px;
+    animation: kp 2s ease-in-out alternate infinite;
+}
+ @keyframes kp {
+    0%{
+
+        color: red;
+        text-shadow:  10px 20px 9px red;
+    }
+
+    50%{
+        color: green;
+        text-shadow:  20px 30px 9px red;
+    }
+   100%{
+        color: blue;
+        text-shadow:  1px 10px 9px rgb(35, 18, 166);
+    }
+ }
