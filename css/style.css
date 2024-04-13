@@ -1,0 +1,14 @@
+
+
+button{
+    padding: 10px;
+    background-color: rgb(237, 57, 90);
+    color: white;
+  
+ 
+
+
+}
+button:hover{
+    background-color: rgb(232, 34, 185);
+}
